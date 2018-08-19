@@ -1,0 +1,141 @@
+table{
+	width: 100%;
+	border-collapse: collapse;
+	box-shadow: 3px 3px 3px #ddd;
+}
+tr:nth-child(even){
+	background: #ddd;
+}
+td,
+th{
+	padding: 1%;
+}
+.skdiv{
+	width: 100%;
+	border-left: 3px solid #0E4DBA;
+	padding: 1%;
+	margin: 1%;
+}
+span{
+	background: #99F938;
+	color:black;
+	border: 1px solid #4B587D;
+	box-shadow: 3px 3px 3px #fff;
+	margin: 1px;
+	padding:1px;
+	border-radius: 5px;
+}
+.parent{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	background: skyblue;
+}
+.child1{
+	width: 30%;
+	border: 1px solid #ddd;
+	padding: 1%;
+	margin:1%; 
+	background: white;
+}
+.child2{
+	width: 70%;
+	border: 1px solid #ddd;
+	padding: 1%;
+	margin:1%;
+	background: pink; 
+}
+.profile{
+			display:block;
+            margin-left: auto;
+            margin-right: auto;
+			width: 200px;
+			height: auto;
+		}
+h1{
+			text-align: center;
+			background: pink;
+			color: blue;
+		}
+a{
+	text-decoration: none;
+	font-size: 25px; 
+}
+p{
+	font-size: 25px;
+}
+/*small screens*/
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+	.parent{
+	display: flex;
+	flex-direction:column;
+	justify-content: center;
+	background: black;
+}
+.child1{
+	width: 100%;
+	border: 1px solid #ddd;
+	padding: 1%;
+	margin:1%; 
+	background: pink;
+}
+.child2{
+	width: 100%;
+	border: 1px solid #ddd;
+	padding: 1%;
+	margin:1%;
+	background: orange; 
+
+}
+}
+/*medium screens*/
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+	.parent{
+	display: flex;
+	flex-direction:column;
+	justify-content: center;
+	background: skyblue;
+}
+.child1{
+	width: 100%;
+	border: 1px solid #ddd;
+	padding: 1%;
+	margin:1%; 
+	background: white;
+}
+.child2{
+	width: 100%;
+	border: 1px solid #ddd;
+	padding: 1%;
+	margin:1%;
+	background: pink; 
+
+}
+}
+*{
+	font-size: 25px;
+}
+/*large screens*/
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+	.parent{
+	display: flex;
+	flex-direction:column;
+	justify-content: center;
+	background: black;
+}
+.child1{
+	width: 100%;
+	border: 1px solid #ddd;
+	padding: 1%;
+	margin:1%; 
+	background: yellow;
+}
+.child2{
+	width: 100%;
+	border: 1px solid #ddd;
+	padding: 1%;
+	margin:1%;
+	background: green; 
+
+}
+}

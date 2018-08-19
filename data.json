@@ -1,0 +1,47 @@
+{
+	"basics":{
+		"name":"Kavya",
+		"role":"Student",
+		"mobile-no":"+91 8421985585",
+		"e-mail":"kavyavippala98@gmail.com"
+	},
+	"career":{
+		"info":"To pursue a challenging career and be a part of progressive organization that gives a scope to enhance my knowledge and utilizing my skills towards the growth of the organization"
+	},
+	"education":[
+		{
+			"Degree":"B-Tech(computer science engineering)",
+			"Institute":"Vignan's Nirula",
+			"Data":["2016-20","86%"]
+		},
+		{
+			"Degree":"Intermediate(MPC)",
+			"Institute":"Narayana Junior College",
+			"Data":["2014-16","97.2%"]
+		},
+		{
+			"Degree":"SSC",
+			"Institute":"Zilla Parishad High School",
+			"Data":["2013-14","95%"]
+		}
+	],
+	"skills":[
+		{
+			"title":"programming language",
+			"content":["Python","C","Java","R-language","C++"]
+		},
+		{
+			"title":"Data Bases",
+			"content":["Sql","Oracle"]
+		},
+		{
+			"title":"Web Technologies",
+			"content":["HTML","CSS","XML"]
+		},
+		{
+			"title":"Operating System",
+			"content":["Linux","TurboC","Unix","Windows"]
+		}
+	]
+
+}
